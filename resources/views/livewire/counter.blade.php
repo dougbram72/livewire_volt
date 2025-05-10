@@ -11,9 +11,9 @@ new class extends Component {
     }
 }; ?>
 
-<div>
-    <p id="result"></p>
-    <button id="start-scanning">Start Scanning</button>
+<div class="mx-4 px-4">
+    <p id="result" class="mx-5 my-2 border border-gray-200 p-2 rounded"></p>
+    <button id="start-scanning" class="btn px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-full">Start Scanning</button>
     <script type="module">
         import "https://cdn.jsdelivr.net/npm/scanbot-web-sdk@7.0.0/bundle/ScanbotSDK.ui2.min.js";
 
